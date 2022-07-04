@@ -28,7 +28,7 @@ public class Syncp_specification {
 	@Given("^user details payload with username \"([^\"]*)\"$")
     public void userDetailsPayloadWithUsernameSomething(String username) throws Throwable {
 	    
-		requestSpec=given().spec(utils.requestSpecification()).body(userpayload.AdminuserCreationpayload(username, "sarathcompany")).header("User-Agent", "Syncplicity Sdk Client 4.0.0 (Sdk 4)").contentType("application/Json");
+		requestSpec=given().spec(utils.requestSpecification()).body(userpayload.AdminuserCreationpayload(username, "sarathnewcompany")).header("User-Agent", "Syncplicity Sdk Client 4.0.0 (Sdk 4)").contentType("application/Json");
 		
 	}
 	
