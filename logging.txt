@@ -1,0 +1,61 @@
+Request method:	POST
+Request URI:	https://dev.syncplicity.com/xml/1.1/syncpoint/syncpoints.svc/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+[
+    {
+        "Name": "testAPI",
+        "Type": "8"
+    }
+]
+HTTP/1.1 200 OK
+Cache-Control: private, no-cache, no-store, max-age=0
+Pragma: no-cache
+Content-Type: application/xml; charset=utf-8
+Server: 
+Syncplicity-Transaction-ID: a55f888a-cad7-4e31-938c-60c09da0f495
+X-Powered-By: 
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self'
+Date: Wed, 29 Jun 2022 10:51:12 GMT
+Content-Length: 906
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+
+<ArrayOfSyncPoint xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <SyncPoint>
+    <Id>46180369</Id>
+    <Type>SyncplicityDrive</Type>
+    <Name>testAPI</Name>
+    <RootFolderId>1732710725111001</RootFolderId>
+    <Mapped>false</Mapped>
+    <DownloadEnabled>true</DownloadEnabled>
+    <UploadEnabled>true</UploadEnabled>
+    <Owner>
+      <Id>24e2112b-0534-445d-889d-d06c05b21563</Id>
+      <EmailAddress>totalnewcompany237@dispostable.com</EmailAddress>
+      <FirstName>Firstname</FirstName>
+      <LastName>Lastname</LastName>
+    </Owner>
+    <Permission>ReadWrite</Permission>
+    <Participants/>
+    <StorageEndpointId>11111111-1111-1111-1111-111111111111</StorageEndpointId>
+    <ServiceState>
+      <Status>Online</Status>
+    </ServiceState>
+    <SyncpointSize i:nil="true"/>
+    <ResharingPermission>AllowIntended</ResharingPermission>
+    <EffectivePermission>ReadWrite</EffectivePermission>
+    <EventServerId>11111111-1111-1111-1111-111111111111</EventServerId>
+    <Status>Active</Status>
+  </SyncPoint>
+</ArrayOfSyncPoint>
