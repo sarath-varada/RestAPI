@@ -1,6 +1,6 @@
 Feature: Validating Syncplicity APIs
 
-@Usercreation
+@Usercreation @Regression
 Scenario Outline: Create a User in syncplicity
 Given user details payload with username "<username>"
 When "CreateUserAPI" call we use "POST" http method to create a syncpoints
@@ -16,7 +16,7 @@ Examples:
 
 
 
-@createSyncpoint
+@createSyncpoint @Regression
 Scenario Outline: Add a syncpoint into OFB
 Given Add syncpoint payload with basic authentication with different syncpoint names "<Name>" "<Type>"
 When "CreateSyncpointAPI" call we use "POST" http method to create a syncpoints
